@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+body {
+  overflow-x: hidden; /* Hide scrollbars */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: left;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.App-header a {
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-decoration: none;
+  margin: 0px 16px;
+}
+.mint {
+  background-color: rgba(5, 19, 25, 0.7);  
+  padding: 24px 24px 0px 24px;
+  border-radius: 15px;
+  margin: auto;
+}
+.mintSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: "Salsa", Sans-serif;
+}
+
+.mintBTN {
+  width: 40%;
+}
+
+.mainBG {
+  width: 100%;
+  height: 100vh;
+}
+
+.mintImage {
+  width: 260px;
+  margin-bottom: 8px;
+  border-radius: 12px;
+}
+
+.mintCount {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 40%;
+  margin: 8px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
